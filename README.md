@@ -22,3 +22,10 @@ To use this project:
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/yourusername/multi-step-form-project.git
+
+## Example
+![image](https://github.com/user-attachments/assets/7499b43b-7dce-4bca-83ca-6abb8d92dac5)
+![image](https://github.com/user-attachments/assets/b86095ba-ebd7-4b38-b417-99cce5a0cf2e)
+![image](https://github.com/user-attachments/assets/b1263e8d-48e7-4167-a082-a55ee24b8185)
+![image](https://github.com/user-attachments/assets/067f1f0b-17e0-4c93-bdd2-f6b464e068f0)
+
