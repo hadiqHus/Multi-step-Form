@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Multi-step Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <div id="progressBar">
+            <div class="progress"></div>
+        </div>
+        <form id="multiStepForm">
+            <div class="form-step form-step-active">
+                <h2>Step 1</h2>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <span class="error-message" id="nameError">Please enter your name</span>
+                <button type="button" class="btn-next">Next</button>
+            </div>
+            <div class="form-step">
+                <h2>Step 2</h2>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <span class="error-message" id="emailError">Please enter a valid email</span>
+                <button type="button" class="btn-prev">Previous</button>
+                <button type="button" class="btn-next">Next</button>
+            </div>
+            <div class="form-step">
+                <h2>Step 3</h2>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <span class="error-message" id="passwordError">Please enter a password</span>
+                <button type="button" class="btn-prev">Previous</button>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
